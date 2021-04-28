@@ -25,6 +25,63 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 
 
+
+Unit test – integration test- e2e
+
+Service – simular
+
+Just test only that method or function
+
+Clase – metodo
+
+TDD – 
+
+Todo esta definido – codigo y prueba, tdd(dificil, cambie poco)
+
+Muchos cambios(clientes no sabe o pide cambios , mejoras) – codigo y unit test final, no tal al final
+
+Code Coverage – ha sido probado – testeado  - lineas etc , clase , etc.   80% arriba. No merece la pena o no podemos probar… 60 a 80 %
+
+Time consuming 
+
+Si usamos apis- no probar porque ya estan probados
+
+Test unitario  cosas utiles
+
+Probar bien, no solo llenar covertura
+
+Jasmine – javascript. – angular default
+
+KARMA – EJECUTAR NAVEGADOR el jasmine  EN COMANDO – probar diferentes browsers
+
+Coverage folder- you can open the browser index.html
+Statement, branches(if and else), functions and lines
+
+-	Agreagr en angular.json en test code coverage true – esto es para el default
+
+ng test 
+ng test --no-watch   – se ejecuta sin navegador – mas rapido
+
+Ng test --no-watch   --code-coverage – sin navegador pero genera code coverage reporte
+
+Navegador es para depurar
+Code coverage y browser – lo hace mas lento
+
+En package json en scripts puede crear tu propio commando
+Para ejecutarlo le pones 
+npm run test. -> esto es ng test 
+
+
+npm install – instalar toda las dependencias necesarias
+
+usa json.server como backend mockeado en json
+
+
+no importar providers uno por uno, importar el modulo pero el de testing.
+No necesitamos hacerlo realmente.   HttpClientTestingModule
+
+Poner servicio en el providers
+
 spyOn - estar atento y saber que el metodo dentro del metod ha sido llamado
 unit test - un metodo no debe llamar otro metodo o servicio
 3 formas - 
